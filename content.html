@@ -9,9 +9,16 @@
 
     <style>
 
+      @media only screen and (max-width: 750px) {
+        .container {
+          margin: 20px;
+        }
+      }
+
       body {
-        background-color: #eaf0ff;
-        font-size: 1.4em;
+        font-size: 1.5em;
+        font-family: Tahoma, Geneva, sans-serif;
+
       }
 
       .center {
@@ -35,8 +42,19 @@
         text-align: center;
       }
 
+      .title {
+        padding-bottom: 10px;
+        color: #ACC4E6;
+      }
+
+      #header img {
+        width:100%;
+        height:auto;
+        padding-top: 30px;
+      }
+
       #facts {
-        padding-top: 60px;
+        padding-top: 30px;
       }
 
       #facts_text {
@@ -52,7 +70,7 @@
       }
 
       #alpaca {
-        padding-top: 30px;
+        padding-top: 40px;
       }
 
       #alpaca img {
@@ -68,7 +86,7 @@
       }
 
       #quiz li {
-        width: 60px;
+        width: 80px;
       }
 
       #llama_button {
@@ -117,9 +135,15 @@
       </div>
     </div>
 
+    <div class="container-fluid" id="header">
+      <div class="row">
+        <img src="http://carlsonsllovablellamas.com/wp-content/uploads/2014/03/LLama_slider_1600.jpg" />
+      </div>
+    </div>
+
     <div class="container" id="facts">
       <div class="row">
-        <h2 class="center">Facts & Figures about Llamas</h2>
+        <h2 class="center title">Facts & Figures about Llamas</h2>
         <div class="col-sm-8">
           <div id="facts_text">
             <p>Are you crazy about llamas??? Do you count llamas instead of sheep to fall asleep?
@@ -143,7 +167,7 @@
     <div class="container" id="alpaca">
       <div class="row">
         <div lcass="col-sm-12">
-          <h2 class="center">Llama vs Alpaca</h2>
+          <h2 class="center title">Llama vs Alpaca</h2>
           <div>
             <p>
               This is one of the most controversial and debated topics of all time. After countless sleepless nights, I decided to
@@ -184,7 +208,7 @@
 
     <div class="container" id="about">
       <div class="row">
-        <h2 class="center">About the Shepherd</h2>
+        <h2 class="center title">About the Shepherd</h2>
         <div class="col-sm-12">
           <img src="mypic.jpg" />
 
